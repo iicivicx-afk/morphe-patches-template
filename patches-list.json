@@ -3,52 +3,6 @@
   "version": "1.0.3",
   "patches": [
     {
-      "name": "Custom background",
-      "description": "Replaces the flat app background with an image or animated GIF you choose.",
-      "default": true,
-      "category": null,
-      "compatiblePackages": [
-        {
-          "packageName": "com.spotify.music",
-          "name": "Spotify",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#1DB954",
-          "signatures": null,
-          "formFactor": "MOBILE",
-          "targets": [
-            {
-              "version": "9.1.94.1929",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": [
-        {
-          "key": "imagePath",
-          "title": "Background image or GIF",
-          "description": "Full path to the file to use as the app background (png, jpg, webp or gif).",
-          "required": true,
-          "type": "kotlin.String",
-          "default": null,
-          "values": null
-        },
-        {
-          "key": "dimPercent",
-          "title": "Dim amount (0-90)",
-          "description": "How much to darken the background so text stays readable. 0 = no dimming.",
-          "required": false,
-          "type": "kotlin.String",
-          "default": "25",
-          "values": null
-        }
-      ]
-    },
-    {
       "name": "Example Patch",
       "description": "Example patch to start with.",
       "default": true,

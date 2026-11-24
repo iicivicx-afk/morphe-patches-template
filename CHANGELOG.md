@@ -4,6 +4,12 @@
 
 * rewrite patch file ([bec950b](https://github.com/iicivicx-afk/morphe-patches-template/commit/bec950bcb5de7e5f39f410a72ab41f328d0f9e5f))
 
+## [1.0.3](https://github.com/iicivicx-afk/morphe-patches-template/compare/v1.0.2...v1.0.3) (2026-11-24)
+
+### 🐛 Bug Fixes
+
+* rewrite patch file ([bec950b](https://github.com/iicivicx-afk/morphe-patches-template/commit/bec950bcb5de7e5f39f410a72ab41f328d0f9e5f))
+
 ## [1.0.2](https://github.com/iicivicx-afk/morphe-patches-template/compare/v1.0.1...v1.0.2) (2026-11-24)
 
 ### 🐛 Bug Fixes
