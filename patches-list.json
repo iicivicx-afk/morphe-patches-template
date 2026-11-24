@@ -1,10 +1,10 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "patches": [
     {
       "name": "Custom background",
-      "description": "Replaces the flat app background with an image you choose.",
+      "description": "Replaces the flat app background with an image or animated GIF you choose.",
       "default": true,
       "category": null,
       "compatiblePackages": [
@@ -30,11 +30,20 @@
       "options": [
         {
           "key": "imagePath",
-          "title": "Background image",
-          "description": "Full path to the image to use as the app background (png, jpg or webp).",
+          "title": "Background image or GIF",
+          "description": "Full path to the file to use as the app background (png, jpg, webp or gif).",
           "required": true,
           "type": "kotlin.String",
           "default": null,
+          "values": null
+        },
+        {
+          "key": "dimPercent",
+          "title": "Dim amount (0-90)",
+          "description": "How much to darken the background so text stays readable. 0 = no dimming.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "25",
           "values": null
         }
       ]
