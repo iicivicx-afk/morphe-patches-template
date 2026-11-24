@@ -1,3 +1,5 @@
+import app.morphe.patcher.patch.AppTarget
+import app.morphe.patcher.patch.Compatibility
 package app.morphe.patches.spotify.background
 
 // Spotify 9.1.94.1929 (com.spotify.music)
@@ -89,6 +91,13 @@ private val mainActivityOnCreateFingerprint = fingerprint {
     }
 }
 
+private val SPOTIFY = Compatibility(
+    packageName = "com.spotify.music",
+    name = "Spotify",
+    appIconColor = 0x1DB954,
+    targets = listOf(AppTarget(version = "9.1.94.1929")),
+)
+
 @Suppress("unused")
 val customBackgroundPatch = bytecodePatch(
     name = "Custom background",
@@ -96,7 +105,7 @@ val customBackgroundPatch = bytecodePatch(
 ) {
     dependsOn(backgroundResourcePatch)
 
-    compatibleWith("com.spotify.music"("9.1.94.1929"))
+    compatibleWith(SPOTIFY)
 
     execute {
         // onCreate has 12 registers: v0..v9 locals, p0 = this (v10), p1 = Bundle (v11).
