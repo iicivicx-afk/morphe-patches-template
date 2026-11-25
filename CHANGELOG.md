@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/iicivicx-afk/morphe-patches-template/compare/v1.0.3...v1.0.4) (2026-11-25)
+
+### 🐛 Bug Fixes
+
+* rewrite patch file ([4c736cc](https://github.com/iicivicx-afk/morphe-patches-template/commit/4c736ccd375bc88101dac8b196fd2667415055c6))
+
 ## [1.0.3](https://github.com/iicivicx-afk/morphe-patches-template/compare/v1.0.2...v1.0.3) (2026-11-24)
 
 ### 🐛 Bug Fixes

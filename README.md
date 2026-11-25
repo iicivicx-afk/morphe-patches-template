@@ -19,11 +19,13 @@ Click the button below, or manually add this repo url to Morphe Manager: https:/
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.3](https://github.com/iicivicx-afk/morphe-patches-template/releases/tag/v1.0.3)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**1 patches** across **1 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+> **[v1.0.4](https://github.com/iicivicx-afk/morphe-patches-template/releases/tag/v1.0.4)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**3 patches** across **3 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
 
 | # | App | Patches | Version | Package |
 |---|---|---|---|---|
-| 1 | [**XYZ app**](PATCHES.md#xyz-app-comexampleapp) | 1 | `2.0.0`, `1.0.2` | [`com.example.app`](https://play.google.com/store/apps/details?id=com.example.app) |
+| 1 | [**Spotify**](PATCHES.md#spotify-comspotifymusic) | 1 | `9.1.94.1929` | [`com.spotify.music`](https://play.google.com/store/apps/details?id=com.spotify.music) |
+| 2 | [**XYZ app**](PATCHES.md#xyz-app-comexampleapp) | 1 | `2.0.0`, `1.0.2` | [`com.example.app`](https://play.google.com/store/apps/details?id=com.example.app) |
+| 3 | [**YouTube Music**](PATCHES.md#youtube-music-comgoogleandroidappsyoutubemusic) | 1 | `9.30.53` | [`com.google.android.apps.youtube.music`](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music) |
 <!-- PATCHES_END -->
 
 ### 🛠️ Building locally
